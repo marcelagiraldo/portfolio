@@ -9,6 +9,7 @@ body{
     transition: background-color 0.3s ease, color 0.3s ease;
     padding-bottom: 80px;
 }
+/* #------------------HEADER------------------------------------- */
 a {
     cursor: pointer;
 }
@@ -44,22 +45,6 @@ nav ul li a{
 .redes-sociales a img{
     width: 40px;
 }
-main{
-    text-align: center;
-    margin-top: 90px;
-    margin-left: 250px;
-    margin-right: 250px;
-    flex: 1;
-    padding-bottom: 80px;
-}
-main p{
-    margin: 0;
-    padding: 0;
-}
-main h3{
-    margin: 0;
-    padding: 0;
-}
 header {
     position: fixed;
     top: 0;
@@ -67,9 +52,25 @@ header {
     background-color: #fff;
     z-index: 1000;
 }
+/* #----------------------------MAIN---------------------------- */
+.main-home{
+    text-align: center;
+    margin: 90px 250px;
+    flex: 1;
+    padding-bottom: 80px;
+}
+.main-home p{
+    margin: 0;
+    padding: 0;
+}
+.main-home h3{
+    margin: 0;
+    padding: 0;
+}
+/* #---------------------------------FOOTER---------------- */
 footer {
     background-color: #2b064d;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
     color: white;
@@ -109,4 +110,42 @@ margin-top: 35px;
 }
 .creditos{
     margin-top: 20px;
+}
+/* -----------Experience */
+.main-experience{
+    margin: 75px 250px;
+}
+.main-experience h2{
+    text-align: center;
+}
+.experiencia-orlando img{
+    width: 200px;
+}
+.experiencia-orlando {
+   margin: 0px 30px;
+   display: flex;
+   align-items: center;
+}
+/* Education */
+.main-education{
+    margin: 90px 250px;
+}
+.main-education h2{
+    text-align: center;
+}
+.educacion-formal img{
+    width: 100px;
+    padding: 20px 40px;
+}
+.educacion-formal {
+    display: flex;
+    align-items: center;
+}
+.educacion-informal img{
+    width: 100px;
+    padding: 20px 40px;
+}
+.educacion-informal {
+    display: flex;
+    align-items: center;
 }
