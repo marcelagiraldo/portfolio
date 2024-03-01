@@ -76,6 +76,7 @@ footer {
     color: white;
     display: flex;
     font-size: 15px;
+    justify-content: center;
 }
 footer div ul li {
     list-style: none;
@@ -149,3 +150,14 @@ margin-top: 35px;
     display: flex;
     align-items: center;
 }
+/* Projects */
+.main-projects{
+    margin: 75px 250px;
+}
+.main-projects h2{
+    text-align: center;
+}
+.main-projects a{
+    color: #2b064d;
+}
+
